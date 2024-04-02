@@ -3,6 +3,33 @@ entries:
   keydb:
   - apiVersion: v2
     appVersion: 6.3.4
+    created: "2024-04-02T07:32:38.965739822Z"
+    description: A Helm chart for KeyDB
+    digest: d1c8e992001c55a27eb5077a89e2c24d350bb6a5c8a030f131ccf0d23fa29778
+    home: https://keydb.dev
+    icon: https://raw.githubusercontent.com/fniko/keydb-helm-chart/17f1a5a4c5c20fd2c0306c0975585affcb34a9e3/icon.png
+    keywords:
+    - keydb
+    - redis
+    - keyvalue
+    - database
+    - multimaster
+    - HA
+    - high-availability
+    maintainers:
+    - email: fn@filipniko.cz
+      name: Filip Niko
+      url: https://github.com/fniko
+    name: keydb
+    sources:
+    - https://github.com/fniko/keydb-helm-chart/tree/master/charts/keydb
+    - https://github.com/Snapchat/KeyDB
+    type: application
+    urls:
+    - https://github.com/fniko/keydb-helm-chart/releases/download/keydb-1.0.4/keydb-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
+    appVersion: 6.3.4
     created: "2024-04-01T15:25:45.731371969Z"
     description: A Helm chart for KeyDB
     digest: cf753cf5d65ce1a7585151f946235763574cdf358f1e9d53a809d0661a452220
@@ -55,4 +82,4 @@ entries:
     urls:
     - https://github.com/fniko/keydb-helm-chart/releases/download/keydb-1.0.2/keydb-1.0.2.tgz
     version: 1.0.2
-generated: "2024-04-01T15:25:45.731405151Z"
+generated: "2024-04-02T07:32:38.965757886Z"
