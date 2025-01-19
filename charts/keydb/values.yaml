@@ -193,6 +193,9 @@ service:
   annotations: {}
   appProtocol:
     enabled: false
+  trafficDistribution:
+    enabled: false
+    policy: PreferClose
 
 serviceAccount:
   enabled: false
