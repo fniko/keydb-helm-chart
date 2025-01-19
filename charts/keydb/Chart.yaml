@@ -2,7 +2,7 @@ apiVersion: v2
 name: keydb
 description: A Helm chart for KeyDB
 type: application
-version: 1.0.5
+version: 1.0.6
 keywords:
 - keydb
 - redis
